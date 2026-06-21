@@ -186,7 +186,7 @@ export default function Hero() {
             </motion.p>
 
             <motion.a
-              href="#get-started"
+              href="#contact"
               initial={
                 prefersReducedMotion
                   ? { opacity: 0 }

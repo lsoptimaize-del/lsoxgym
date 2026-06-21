@@ -1,8 +1,10 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Hero from "@/components/sections/Hero";
 import Problem from "@/components/sections/Problem";
 import Results from "@/components/sections/Results";
 import Stack from "@/components/sections/Stack";
+import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
@@ -13,13 +15,9 @@ export default function Home() {
         <Problem />
         <Stack />
         <Results />
-        <section
-          id="pricing"
-          className="flex h-screen items-center justify-center bg-background text-muted"
-        >
-          Pricing placeholder
-        </section>
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }

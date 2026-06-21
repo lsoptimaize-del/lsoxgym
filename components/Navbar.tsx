@@ -8,7 +8,6 @@ const NAV_LINKS = [
   { label: "The Problem", id: "problem" },
   { label: "The Stack", id: "stack" },
   { label: "Results", id: "results" },
-  { label: "Pricing", id: "pricing" },
 ];
 
 export default function Navbar() {
@@ -88,7 +87,11 @@ export default function Navbar() {
 
           <div className="hidden md:block">
             <a
-              href="#get-started"
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToId("contact");
+              }}
               className="group relative isolate inline-flex items-center justify-center overflow-hidden bg-accent px-5 py-2 font-mono text-sm text-white"
             >
               <CtaSweepLabel>Get the AI Stack</CtaSweepLabel>
@@ -156,8 +159,11 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#get-started"
-              onClick={() => setIsMenuOpen(false)}
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToId("contact");
+              }}
               className="group relative isolate mt-4 inline-flex items-center justify-center overflow-hidden bg-accent px-8 py-4 font-mono text-sm text-white"
             >
               <CtaSweepLabel>Get the AI Stack</CtaSweepLabel>
