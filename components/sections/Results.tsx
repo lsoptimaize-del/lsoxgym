@@ -12,12 +12,12 @@ const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 const VIDEO_TESTIMONIALS = [
   {
-    src: "/testimonial-2 (1).mp4",
+    src: "/gym/testimonial-2 (1).mp4",
     name: "CULT FIT OWNER",
     role: "Founder, Cult Fit",
   },
   {
-    src: "/testimonial-2 (2).mp4",
+    src: "/gym/testimonial-2 (2).mp4",
     name: "CLOUTFIT OWNER",
     role: "Founder, Cloutfit",
   },
@@ -331,7 +331,7 @@ export default function Results() {
             muted
             loop
             playsInline
-            src="/comp.mp4"
+            src="/gym/comp.mp4"
             onError={(e) => {
               e.currentTarget.style.display = "none";
             }}

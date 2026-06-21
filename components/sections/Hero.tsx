@@ -107,7 +107,7 @@ export default function Hero() {
           key={isMobile ? "mobile" : "desktop"}
           style={{ opacity: videoOpacity }}
           className="h-full w-full object-cover"
-          src={isMobile ? "/hero_mobile.mp4" : "/hero.mp4"}
+          src={isMobile ? "/gym/hero_mobile.mp4" : "/gym/hero.mp4"}
           autoPlay
           muted
           loop
@@ -144,7 +144,7 @@ export default function Hero() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/lso_new.png"
+            src="/gym/lso_new.png"
             alt="LS OptimAIze"
             style={{ display: "inline-block" }}
             className="h-[clamp(36px,9vw,52px)] w-auto md:h-[clamp(48px,6vw,88px)]"

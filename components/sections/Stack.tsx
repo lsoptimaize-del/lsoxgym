@@ -19,7 +19,7 @@ const PILLARS: Pillar[] = [
     does: "Turns every visitor into a booked trial in under 5 seconds. Built to convert, not to impress your designer friends.",
     killsOff:
       "Your outdated site that bounces 80% of traffic and embarrasses you every time you share the link.",
-    image: "/stack-01.jpeg",
+    image: "/gym/stack-01.jpeg",
     overlay: "BUILT TO CONVERT. NOT TO SIT THERE.",
   },
   {
@@ -28,7 +28,7 @@ const PILLARS: Pillar[] = [
     does: "Follows up with every single lead in 60 seconds, 24/7, across WhatsApp, SMS, and email. Never misses. Never sleeps.",
     killsOff:
       "Your front desk playing phone tag with leads who already joined the gym across the street.",
-    image: "/stack-02.jpeg",
+    image: "/gym/stack-02.jpeg",
     overlay: "60 SECONDS. EVERY LEAD. EVERY TIME.",
   },
   {
@@ -37,7 +37,7 @@ const PILLARS: Pillar[] = [
     does: "Retention built into every session. Members track progress, trainers manage clients, admins see everything.",
     killsOff:
       "WhatsApp groups, paper schedules, and members ghosting because nobody checked in on them.",
-    image: "/stack-03.jpeg",
+    image: "/gym/stack-03.jpeg",
     overlay: "YOUR GYM IN THEIR POCKET. EVERY DAY.",
   },
   {
@@ -46,7 +46,7 @@ const PILLARS: Pillar[] = [
     does: "Check-ins, billing, staff scheduling, and reporting, all automated and running in one dashboard.",
     killsOff:
       "Three different tools, two spreadsheets, and a sticky note on your monitor that says 'fix billing'.",
-    image: "/stack-04.jpeg",
+    image: "/gym/stack-04.jpeg",
     overlay: "THE BACK OFFICE RUNS ITSELF.",
   },
   {
@@ -55,7 +55,7 @@ const PILLARS: Pillar[] = [
     does: "Dominates local search, owns your Google Map Pack, and runs paid campaigns that actually return money.",
     killsOff:
       "The agency charging you $3k/month to post 3 reels and send a PDF report nobody reads.",
-    image: "/stack-05.jpeg",
+    image: "/gym/stack-05.jpeg",
     overlay: "OWN YOUR CITY. ONLINE AND OFF.",
   },
 ];

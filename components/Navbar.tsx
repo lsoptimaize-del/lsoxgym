@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { CtaSweepLabel } from "@/components/ui/CtaSweepLabel";
 
@@ -12,15 +12,28 @@ const NAV_LINKS = [
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isHidden, setIsHidden] = useState(false);
+  const lastScrollY = useRef(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const prefersReducedMotion = useReducedMotion();
 
   useEffect(() => {
-    const onScroll = () => setIsScrolled(window.scrollY > 60);
+    const onScroll = () => {
+      const currentScrollY = window.scrollY;
+      setIsScrolled(currentScrollY > 60);
+      
+      if (currentScrollY > lastScrollY.current && currentScrollY > 150 && !isMenuOpen) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+      lastScrollY.current = currentScrollY;
+    };
+    
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [isMenuOpen]);
 
   useEffect(() => {
     document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -45,9 +58,9 @@ export default function Navbar() {
     <>
       <motion.nav
         initial={prefersReducedMotion ? { opacity: 0 } : { opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.1 }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 [transition-timing-function:ease] ${
+        animate={{ opacity: 1, y: isHidden ? "-100%" : 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+        className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
           isScrolled
             ? "border-b border-[#E85C1A]/20 bg-[#0A0A0A]/95 backdrop-blur-md"
             : "border-b border-transparent bg-transparent"
@@ -62,7 +75,7 @@ export default function Navbar() {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/lso_new.png"
+              src="/gym/lso_new.png"
               alt="LS OptimAIze"
               height={36}
               className="h-9 w-auto"
