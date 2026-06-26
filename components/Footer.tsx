@@ -4,6 +4,7 @@ const FOOTER_LINKS = [
   { label: "The Problem", id: "problem" },
   { label: "The Stack", id: "stack" },
   { label: "Results", id: "results" },
+  { label: "Pricing", id: "pricing" },
   { label: "Contact", id: "contact" },
 ];
 

@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { label: "The Problem", id: "problem" },
   { label: "The Stack", id: "stack" },
   { label: "Results", id: "results" },
+  { label: "Pricing", id: "pricing" },
 ];
 
 export default function Navbar() {
