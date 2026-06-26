@@ -5,6 +5,7 @@ import Problem from "@/components/sections/Problem";
 import Results from "@/components/sections/Results";
 import Stack from "@/components/sections/Stack";
 import Contact from "@/components/sections/Contact";
+import Pricing from "@/components/sections/Pricing";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Problem />
         <Stack />
         <Results />
+        <Pricing />
         <Contact />
       </main>
       <Footer />

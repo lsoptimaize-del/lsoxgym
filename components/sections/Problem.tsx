@@ -238,7 +238,7 @@ export default function Problem() {
                 className="mt-10 flex flex-col items-start"
               >
                 <motion.a
-                  href="#get-started"
+                  href="#contact"
                   initial={
                     prefersReducedMotion
                       ? { opacity: 0 }
