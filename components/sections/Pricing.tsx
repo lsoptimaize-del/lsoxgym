@@ -8,8 +8,8 @@ const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 const PRICING_TIERS = [
   {
     title: "STARTER AI AUTOMATION",
-    price: "$250 - $300",
-    mrr: "$800 - $1,200 / mo",
+    price: "$250 - $300 / mo",
+    mrr: "$250 - $300 / mo",
     description: "Perfect for establishing your baseline digital presence and getting your first automated campaigns running.",
     features: [
       "High-Converting Gym Website",
@@ -20,8 +20,8 @@ const PRICING_TIERS = [
   },
   {
     title: "ADVANCED AI AUTOMATION",
-    price: "$500 - $1,000",
-    mrr: "$2,000 - $2,500 / mo",
+    price: "$500 - $1,000 / mo",
+    mrr: "$500 - $1,000 / mo",
     description: "Scale your operations with advanced conversational logic, SEO dominance, and a full operational dashboard.",
     features: [
       "Everything in Starter",
@@ -40,8 +40,8 @@ const PRICING_TIERS = [
       "Everything in Advanced (Full Package)",
       "100% Custom Coded Automation",
       "Automates Sales, Marketing, Everything",
+      "Advanced Ads",
       "1-on-1 Call to Custom Build Your Offer",
-      "Advanced Ads Integration",
     ],
     highlight: false,
   },
