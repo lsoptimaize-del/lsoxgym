@@ -8,8 +8,8 @@ const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 const PRICING_TIERS = [
   {
     title: "STARTER AI AUTOMATION",
-    price: "$2000 - $3000 / mo",
-    mrr: "$250 - $300 / mo",
+    price: "$2,000 - $3,000",
+    mrr: "$350 - $500 / mo",
     description: "Perfect for establishing your baseline digital presence and getting your first automated campaigns running.",
     features: [
       "High-Converting Gym Website",
@@ -20,8 +20,8 @@ const PRICING_TIERS = [
   },
   {
     title: "ADVANCED AI AUTOMATION",
-    price: "$5000 - $10,000 / mo",
-    mrr: "$500 - $1,000 / mo",
+    price: "$5,000 - $10,000",
+    mrr: "$800 - $1,000 / mo",
     description: "Scale your operations with advanced conversational logic, SEO dominance, and a full operational dashboard.",
     features: [
       "Everything in Starter",
@@ -126,7 +126,7 @@ export default function Pricing() {
                 </span>
               </motion.div>
               <motion.div {...fadeUp(index * 0.1 + 0.7, 0.6, 20)} className="mb-8 font-mono text-[12px] uppercase tracking-widest text-accent">
-                + {tier.mrr} MRR
+                + {tier.mrr}
               </motion.div>
 
               <div className="flex-1 space-y-4 mb-10">
