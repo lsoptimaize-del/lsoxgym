@@ -1,0 +1,101 @@
+#,Gym Name,Rating,Reviews,City,State
+1,OAK Fitness,4.9,587,Houston,TX
+2,Facet Seven Heights,4.9,316,Houston,TX
+3,Houston Gym,4.6,457,Houston,TX
+4,EōS Fitness,4.3,"3,280",Houston,TX
+5,Be Fit Gym,4.7,310,Houston,TX
+6,Fan Club Health & Fitness,4.8,347,Houston,TX
+7,Vice Gym,4.8,43,Houston,TX
+8,Compound Gym,5.0,642,Houston,TX
+9,Level One Fitness,4.7,173,Houston,TX
+10,The Preserve,4.2,133,Houston,TX
+11,District H Strength & Fitness - The Heights,4.9,119,Houston,TX
+12,Uptown Fitness,4.5,45,Houston,TX
+13,Believe Gym,4.7,84,Houston,TX
+14,ONESWEAT,4.8,345,Houston,TX
+15,Houston Next Level Fitness,4.9,67,Houston,TX
+16,The Met Athletic Club,4.4,285,Houston,TX
+17,24 Hour Fitness,4.3,"1,685",Houston,TX
+18,vFiT Gym 24/7,4.9,59,Houston,TX
+19,Orangetheory Fitness,4.7,332,Houston,TX
+20,Dynamic Fitness,4.1,981,Houston,TX
+21,10th Fitness,4.9,67,Houston,TX
+22,Oxigyn Fitness,4.8,190,Houston,TX
+23,Morr Fit Houston,4.9,146,Houston,TX
+24,Steelmill Gym,4.7,134,Houston,TX
+25,illuminate Heights,4.9,141,Houston,TX
+26,Strength Performance Gym,5.0,70,Houston,TX
+27,TEF Strength Training Facility,4.9,114,Houston,TX
+28,Femcore Fitness,4.8,122,Houston,TX
+29,Gainz City Gym,4.9,56,Houston,TX
+30,Life Time,4.1,470,Houston,TX
+31,Prestige Strength Fitness,5.0,47,Houston,TX
+32,Anytime Fitness,4.5,364,Houston,TX
+33,The Houstonian Club,4.9,136,Houston,TX
+34,Covenant Gym,4.8,38,Houston,TX
+35,Breach Fitness,4.9,126,Houston,TX
+36,Golds Gym,4.3,337,Houston,TX
+37,Barry's Houston,4.8,210,Houston,TX
+38,Impact Fitness,5.0,50,Houston,TX
+39,O Athletik,4.4,196,Houston,TX
+40,Stronger Faster Strength & Conditioning Gym,4.9,104,Houston,TX
+41,Amped Fitness (Westbury),4.4,458,Houston,TX
+42,Timberline Fitness Studio,4.8,43,Houston,TX
+43,The Downtown Club at Houston Center,4.4,104,Houston,TX
+44,Fitness Connection,4.7,"4,068",Houston,TX
+45,Eat Fitness Gym,5.0,33,Houston,TX
+46,River Oaks Gym,4.3,37,Houston,TX
+47,Reign Athletics Houston Club,5.0,"1,460",Houston,TX
+48,Athletic Empire Gym,4.7,154,Houston,TX
+49,711 Fit,4.5,35,Houston,TX
+50,EōS Fitness,4.5,"1,529",Phoenix,AZ
+51,Liberty Performance Training,4.9,271,Phoenix,AZ
+52,MUSCLETOPIA USA,4.9,558,Phoenix,AZ
+53,F45 Training East Phoenix,4.9,293,Phoenix,AZ
+54,Arizona Grand Athletic Club,4.5,83,Phoenix,AZ
+55,Tangible Wellness Fitness Center,4.7,347,Phoenix,AZ
+56,Stealth Performance AZ,4.9,98,Phoenix,AZ
+57,TriFIT Wellness,5.0,225,Phoenix,AZ
+58,Mountainside Fitness Chase Field,4.4,322,Phoenix,AZ
+59,Crunch Fitness - Arcadia,4.9,116,Phoenix,AZ
+60,Omega Strong Gym,4.9,64,Phoenix,AZ
+61,third space athletic club,5.0,73,Phoenix,AZ
+62,Core Collective Fitness,4.8,81,Phoenix,AZ
+63,Happy Factory,4.8,63,Phoenix,AZ
+64,Ability360 Sports & Fitness Center,4.8,707,Phoenix,AZ
+65,Track Club Fitness,4.5,205,Phoenix,AZ
+66,TriCoreFit,5.0,131,Phoenix,AZ
+67,LA Fitness,4.3,"1,052",Phoenix,AZ
+68,Results Only Fitness,4.9,49,Phoenix,AZ
+69,Phoenix Plaza Fitness Center,4.7,32,Phoenix,AZ
+70,CrossFit Full Strength,5.0,195,Phoenix,AZ
+71,VASA Fitness,4.4,"1,223",Phoenix,AZ
+72,"Burn It Build It Fitness - Gym, Personal Training",4.8,78,Phoenix,AZ
+73,Elev8te Performance,4.5,24,Phoenix,AZ
+74,Anytime Fitness,4.3,264,Phoenix,AZ
+75,Orangetheory Fitness,4.8,273,Phoenix,AZ
+76,FLEX Spas Phoenix,4.0,226,Phoenix,AZ
+77,Todd Smith Fitness - AZ,5.0,77,Phoenix,AZ
+78,Pure Barre,4.8,66,Phoenix,AZ
+79,Camelback Village Racquet & Health Club,4.0,220,Phoenix,AZ
+80,Planet Fitness,4.2,"1,138",Phoenix,AZ
+81,Sweatshop on Central,5.0,455,Phoenix,AZ
+82,Camelback Boxing Gym,4.8,52,Phoenix,AZ
+83,Muscle Factory Gym,4.6,266,Phoenix,AZ
+84,Underground Fitness Personal Training,5.0,204,Phoenix,AZ
+85,TG The Gym,4.7,296,Phoenix,AZ
+86,Independence Gym,4.4,303,Phoenix,AZ
+87,5 Star Fitness​,4.9,578,Phoenix,AZ
+88,Mountainside Fitness Tempe Marina Heights,4.5,665,Phoenix,AZ
+89,HUB Fitness,5.0,108,Phoenix,AZ
+90,ATP Gym,5.0,154,Phoenix,AZ
+91,Hive Fit Club,4.9,370,Phoenix,AZ
+92,LUXE Health Club,5.0,15,Phoenix,AZ
+93,Mountainside Fitness Executive Club,4.5,144,Phoenix,AZ
+94,The Body Lab,5.0,8,Phoenix,AZ
+95,Mountainside Fitness Paradise Valley,4.6,532,Phoenix,AZ
+96,Physiques Gym,4.9,136,Phoenix,AZ
+97,Buddha Bella Healing Center,4.9,182,Phoenix,AZ
+98,Bouldering Project - Tempe,4.4,301,Phoenix,AZ
+99,Royal Palms Resort and Spa -The Unbound Collection by Hyatt,4.7,"1,526",Phoenix,AZ
+100,AVE Phoenix Terra,4.7,112,Phoenix,AZ
