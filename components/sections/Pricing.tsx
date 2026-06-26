@@ -8,7 +8,7 @@ const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 const PRICING_TIERS = [
   {
     title: "STARTER AI AUTOMATION",
-    price: "$250 - $300 / mo",
+    price: "$2000 - $3000 / mo",
     mrr: "$250 - $300 / mo",
     description: "Perfect for establishing your baseline digital presence and getting your first automated campaigns running.",
     features: [
@@ -20,7 +20,7 @@ const PRICING_TIERS = [
   },
   {
     title: "ADVANCED AI AUTOMATION",
-    price: "$500 - $1,000 / mo",
+    price: "$5000 - $10,000 / mo",
     mrr: "$500 - $1,000 / mo",
     description: "Scale your operations with advanced conversational logic, SEO dominance, and a full operational dashboard.",
     features: [
